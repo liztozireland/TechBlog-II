@@ -5,7 +5,7 @@ const newFormHandler = async (event) => {
     const post_id = document.querySelector('#comment-post-id').value;
   
     if (comment) {
-     console.log('comment')
+     console.log(comment)
         
       };
     }
