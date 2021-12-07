@@ -25,14 +25,6 @@ Comment.init(
         unique: false
       }
     },
-    post_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'post',
-        key: 'id',
-        unique: false
-      }
-    },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
